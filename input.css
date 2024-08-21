@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.hide {
+  display: none !important;
+}
+
 .kanak {
   border: 1px solid red;
 }

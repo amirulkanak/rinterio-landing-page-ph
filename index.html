@@ -30,7 +30,7 @@
     <title>Rinterio</title>
 
     <!-- =======================================================
-    * Name: Fitness Landing Page
+    * Name: Rinterio Landing Page
     * Updated: August 21 2024
     * Developer: Amirul Alam Kanak
     * Github: github.com/amirulkanak
@@ -39,9 +39,89 @@
   </head>
   <body>
     <header class="bg-hero-bg">
-      <div class="wrapper pb-10 md:pb-[4.5rem] lg:pb-24">
+      <div
+        class="wrapper pb-10 pt-[2rem] md:pt-[2.5rem] lg:pt-[3.5rem] md:pb-[4.5rem] lg:pb-24">
         <!-- Navigation -->
-        <nav class="text-center text-4xl">Navbar Coming Soon</nav>
+        <nav class="da-navbar justify-between">
+          <!-- Logo -->
+          <a
+            class="da-btn p-0 da-btn-ghost text-[1.75rem] leading-[2.375rem] md:text-[2rem] md:leading-[2.75rem] text-clr-gray-6 font-extrabold hover:bg-inherit">
+            <div
+              class="da-btn da-btn-circle bg-lime-300 border-none hover:bg-lime-300">
+              <i class="fa-solid fa-arrow-right text-2xl -rotate-45"></i>
+            </div>
+            Rinterio</a
+          >
+
+          <!-- Menu -->
+          <ul
+            class="hidden min-[1120px]:flex da-menu da-menu-horizontal p-0 text-clr-gray-4 text-base font-extrabold">
+            <li class="text-clr-gray-5"><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Blogs</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+
+          <!-- Nav search cart button -->
+          <div class="space-x-4">
+            <div class="hidden md:block space-x-4">
+              <!-- Search -->
+              <div class="da-btn da-btn-circle bg-white hover:bg-white">
+                <i class="fa-solid fa-magnifying-glass text-2xl"></i>
+              </div>
+
+              <!-- Cart -->
+              <div class="da-btn da-btn-circle bg-white hover:bg-white">
+                <i class="fa-solid fa-cart-shopping text-2xl"></i>
+              </div>
+
+              <!-- Book Now -->
+              <button
+                class="da-btn px-6 min-h-[4rem] rounded-[2rem] group text-clr-gray-6 font-bold text-xl bg-lime-300 border border-lime-400">
+                Book Consult
+                <div
+                  class="da-btn da-btn-circle ml-2 bg-lime-300 border-none hover:bg-lime-300">
+                  <i
+                    class="fa-solid fa-arrow-right text-xl -rotate-45 group-hover:rotate-0 duration-200"></i>
+                </div>
+              </button>
+            </div>
+
+            <!-- Mobile menu -->
+            <div class="da-dropdown da-dropdown-end min-[1120px]:hidden">
+              <div
+                tabindex="0"
+                role="button"
+                class="da-btn da-btn-ghost da-btn-circle">
+                <div class="da-btn da-btn-circle bg-white hover:bg-white">
+                  <i class="fa-solid fa-bars text-2xl"></i>
+                </div>
+              </div>
+              <ul
+                tabindex="0"
+                class="da-menu da-menu-lg da-dropdown-content bg-lime-100 rounded-box z-[1] mt-3 w-52 p-2 shadow space-y-2">
+                <li class="text-clr-gray-5"><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Blogs</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li
+                  class="md:hidden da-btn da-btn-block bg-white hover:bg-white">
+                  <i class="fa-solid fa-magnifying-glass text-xl"></i>
+                </li>
+                <li
+                  class="md:hidden da-btn da-btn-block bg-white hover:bg-white">
+                  <i class="fa-solid fa-cart-shopping text-xl"></i>
+                </li>
+                <li
+                  class="md:hidden da-btn px-6 min-h-[4rem] text-clr-gray-6 font-bold text-xl bg-lime-300 border border-lime-400">
+                  Book Consult
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
 
         <!-- Hero Section -->
         <section class="da-hero mt-8 md:mt-10">
@@ -57,14 +137,14 @@
                 A barn house of this design has a striking appearance
               </h1>
               <p
-                class="py-6 text-center font-medium text-clr-gray-5 text-sm leading-6 md:max-w-[35.4rem] md:text-base md:leading-[1.625rem] lg:max-w-[60.8rem]">
+                class="py-6 text-center font-medium text-clr-gray-5 text-sm leading-6 md:max-w-[35.4rem] md:text-base md:leading-[1.625rem] lg:max-w-[60.8rem] text-pretty">
                 The barn house captivates with its blend of rustic charm and
                 modern sophistication, featuring weathered wood, sleek metal
                 accents, and large windows that flood the space with natural
                 light.
               </p>
               <button
-                class="da-btn w-full md:w-fit px-6 h-[4rem] rounded-[2rem] group text-clr-gray-6 font-bold text-xl bg-lime-300/50 border border-lime-300">
+                class="da-btn w-full md:w-fit px-6 min-h-[4rem] rounded-[2rem] group text-clr-gray-6 font-bold text-xl bg-lime-300/50 border border-lime-300">
                 View Details
                 <div
                   class="da-btn da-btn-circle ml-2 bg-lime-300 border-none hover:bg-lime-300">
@@ -77,6 +157,6 @@
         </section>
       </div>
     </header>
-    <main>kanak</main>
+    <main></main>
   </body>
 </html>

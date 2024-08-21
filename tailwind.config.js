@@ -14,6 +14,7 @@ module.exports = {
       },
       // Custom colors
       colors: {
+        'clr-gray-4': '#737373',
         'clr-gray-5': '#494949',
         'clr-gray-6': '#212121',
         'clr-off-white': '#F4F4F4',
