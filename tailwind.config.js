@@ -17,6 +17,7 @@ module.exports = {
         'clr-gray-4': '#737373',
         'clr-gray-5': '#494949',
         'clr-gray-6': '#212121',
+        'clr-gray-7': '#1C1C1C',
         'clr-off-white': '#F4F4F4',
       },
       backgroundImage: {

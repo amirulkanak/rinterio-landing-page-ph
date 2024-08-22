@@ -50,8 +50,8 @@
               class="da-btn da-btn-circle bg-lime-300 border-none hover:bg-lime-300">
               <i class="fa-solid fa-arrow-right text-2xl -rotate-45"></i>
             </div>
-            Rinterio</a
-          >
+            Rinterio
+          </a>
 
           <!-- Menu -->
           <ul
@@ -81,15 +81,16 @@
                 class="da-btn px-6 min-h-[4rem] rounded-[2rem] group text-clr-gray-6 font-bold text-xl bg-lime-300 border border-lime-400">
                 Book Consult
                 <div
-                  class="da-btn da-btn-circle ml-2 bg-lime-300 border-none hover:bg-lime-300">
+                  class="da-btn da-btn-circle da-btn-sm ml-2 bg-clr-gray-6 border-none hover:bg-clr-gray-6">
                   <i
-                    class="fa-solid fa-arrow-right text-xl -rotate-45 group-hover:rotate-0 duration-200"></i>
+                    class="fa-solid fa-arrow-right text-white text-xl -rotate-45 group-hover:rotate-0 group-hover:text-lime-400 duration-200"></i>
                 </div>
               </button>
             </div>
 
             <!-- Mobile menu -->
             <div class="da-dropdown da-dropdown-end min-[1120px]:hidden">
+              <!-- mobile icon -->
               <div
                 tabindex="0"
                 role="button"
@@ -98,21 +99,27 @@
                   <i class="fa-solid fa-bars text-2xl"></i>
                 </div>
               </div>
+
+              <!-- mobile navigation -->
               <ul
                 tabindex="0"
-                class="da-menu da-menu-lg da-dropdown-content bg-lime-100 rounded-box z-[1] mt-3 w-52 p-2 shadow space-y-2">
-                <li class="text-clr-gray-5"><a href="">Home</a></li>
+                class="da-menu da-menu-lg da-dropdown-content bg-lime-100 rounded-box font-bold z-[1] mt-3 w-52 shadow space-y-2">
+                <li class="text-clr-gray-5">
+                  <a href="">Home</a>
+                </li>
                 <li><a href="">Services</a></li>
                 <li><a href="">Portfolio</a></li>
                 <li><a href="">Blogs</a></li>
                 <li><a href="">Contact Us</a></li>
                 <li
                   class="md:hidden da-btn da-btn-block bg-white hover:bg-white">
-                  <i class="fa-solid fa-magnifying-glass text-xl"></i>
+                  <i
+                    class="fa-solid fa-magnifying-glass text-xl hover:bg-white"></i>
                 </li>
                 <li
                   class="md:hidden da-btn da-btn-block bg-white hover:bg-white">
-                  <i class="fa-solid fa-cart-shopping text-xl"></i>
+                  <i
+                    class="fa-solid fa-cart-shopping text-xl hover:bg-white"></i>
                 </li>
                 <li
                   class="md:hidden da-btn px-6 min-h-[4rem] text-clr-gray-6 font-bold text-xl bg-lime-300 border border-lime-400">
@@ -158,5 +165,48 @@
       </div>
     </header>
     <main></main>
+    <footer class="bg-clr-gray-7">
+      <div
+        class="wrapper flex flex-col items-center justify-center gap-y-4 pt-[4.5rem] md:pt-[6.25rem]">
+        <!-- Logo -->
+        <a
+          class="da-btn p-0 da-btn-ghost text-[1.75rem] leading-[2.375rem] md:text-[2rem] md:leading-[2.75rem] text-white font-extrabold hover:bg-inherit">
+          <div
+            class="da-btn da-btn-circle bg-lime-300 border-none hover:bg-lime-300">
+            <i class="fa-solid fa-arrow-right text-2xl -rotate-45"></i>
+          </div>
+          Rinterio
+        </a>
+
+        <p
+          class="max-w-[42.5rem] text-clr-gray-4 text-base font-medium text-center text-pretty">
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents.
+        </p>
+
+        <nav
+          class="my-4 md:my-12 flex flex-col md:flex-row md:gap-x-[6rem] lg:gap-x-[7.5rem] items-center gap-y-8 text-base text-white">
+          <a class="da-link da-link-hover">Home</a>
+          <a class="da-link da-link-hover">Services</a>
+          <a class="da-link da-link-hover">Portfolio</a>
+          <a class="da-link da-link-hover">Blogs</a>
+          <a class="da-link da-link-hover">Contact Us</a>
+        </nav>
+
+        <button
+          class="da-btn w-full md:w-fit px-6 min-h-[4rem] rounded-[2rem] group text-clr-gray-6 font-bold text-xl bg-lime-300 border border-lime-400">
+          Book Consult
+          <div
+            class="da-btn da-btn-circle ml-2 bg-clr-gray-6 border-none hover:bg-clr-gray-6">
+            <i
+              class="fa-solid fa-arrow-right text-white text-2xl -rotate-45 group-hover:rotate-0 group-hover:text-lime-400 duration-200"></i>
+          </div>
+        </button>
+
+        <div class="text-clr-gray-4 mt-[2.5rem] lg:mt-[4.25rem] pb-[2rem]">
+          <p>Copyright © 2024 - All right reserved by Rinterio</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
