@@ -31,7 +31,7 @@
 
     <!-- =======================================================
     * Name: Rinterio Landing Page
-    * Updated: August 21 2024
+    * Updated: August 22 2024
     * Developer: Amirul Alam Kanak
     * Github: github.com/amirulkanak
     * Credits: Programming Hero module-16 (assignment-3) web.programming-hero.com
@@ -166,11 +166,111 @@
     </header>
 
     <main>
+      <!-- Work Section -->
+      <section
+        class="wrapper flex flex-col items-center justify-center gap-y-4 my-8 md:my-[4.5rem] lg:my-[6.25rem]">
+        <!-- Badge -->
+        <div
+          class="da-badge gap-2 badge-info px-3 h-9 text-clr-gray-5 text-base font-bold bg-white">
+          <i class="fa-solid fa-arrow-right"></i>
+          How we works
+        </div>
+
+        <!-- Work Content -->
+        <h2
+          class="text-clr-gray-6 font-bold text-center text-[1.5rem] leading-[2rem] md:text-[2rem] md:leading-[2.75rem] lg:text-[2.5rem] lg:leading-[3.5rem]">
+          Our Works Process
+        </h2>
+        <p
+          class="mt-2 mb-4 w-full max-w-[41rem] text-clr-gray-5 font-medium text-center text-[0.875rem] leading-[1.5rem] md:text-[1rem] md:leading-[1.625rem]">
+          Our work process is simple and easy to understand. We have dedicated
+          team to in concept, design, and develop your project.
+        </p>
+
+        <!-- Work Steps cards -->
+        <div
+          class="grid grid-cols-1 gap-y-4 md:grid-cols-2 md:gap-6 lg:grid-cols-4">
+          <!-- card 1 -->
+          <div class="da-card bg-[#E7C1D3]">
+            <div class="da-card-body">
+              <img
+                class="size-[3rem]"
+                src="./assets/icons/concept.png"
+                alt="Light" />
+              <h2
+                class="da-card-title font-extrabold text-clr-gray-7 text-[1.25rem] leading-[1.625rem]">
+                Concept
+              </h2>
+              <p
+                class="text-clr-gray-5 font-medium text-base leading-[1.625rem]">
+                We start with a concept that is unique and innovative.
+              </p>
+            </div>
+          </div>
+
+          <!-- card 2 -->
+          <div class="da-card bg-[#EFDA6E]">
+            <div class="da-card-body">
+              <img
+                class="size-[3rem]"
+                src="./assets/icons/flow-chart.png"
+                alt="Flow chart" />
+              <h2
+                class="da-card-title font-extrabold text-clr-gray-7 text-[1.25rem] leading-[1.625rem]">
+                Design Process
+              </h2>
+              <p
+                class="text-clr-gray-5 font-medium text-base leading-[1.625rem]">
+                We design the project with the latest tools and technologies.
+              </p>
+            </div>
+          </div>
+
+          <!-- card 3 -->
+          <div class="da-card bg-[#A4DAC3]">
+            <div class="da-card-body">
+              <img
+                class="size-[3rem]"
+                src="./assets/icons/vision.png"
+                alt="Vision" />
+              <h2
+                class="da-card-title font-extrabold text-clr-gray-7 text-[1.25rem] leading-[1.625rem]">
+                Supervision
+              </h2>
+              <p
+                class="text-clr-gray-5 font-medium text-base leading-[1.625rem]">
+                We supervise the project from start to finish.
+              </p>
+            </div>
+          </div>
+
+          <!-- card 3 -->
+          <div class="da-card bg-[#77AAEA]">
+            <div class="da-card-body">
+              <img
+                class="size-[3rem]"
+                src="./assets/icons/budget-planning.png"
+                alt="budget" />
+              <h2
+                class="da-card-title font-extrabold text-clr-gray-7 text-[1.25rem] leading-[1.625rem]">
+                Budget Planning
+              </h2>
+              <p
+                class="text-clr-gray-5 font-medium text-base leading-[1.625rem]">
+                We plan the budget and make sure it is cost-effective.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+
       <!-- Connect Section -->
       <section
         class="bg-connect-bg bg-no-repeat bg-center bg-cover py-8 md:py-[4.5rem] mt-8 md:mt-[4.5rem] lg:mt-[6.25rem] lg:py-[6.25rem]">
         <div class="wrapper flex flex-col items-center justify-center gap-y-4">
-          <!-- badge -->
+          <!-- Badge -->
           <div
             class="da-badge gap-2 badge-info px-3 h-9 text-clr-gray-5 text-base font-bold bg-lime-300/20">
             <i class="fa-solid fa-arrow-right"></i>
@@ -183,13 +283,14 @@
             Let’s Discuss Next Project
           </h2>
           <p
-            class="mt-2 mb-4 text-clr-gray-5 font-medium text-center text-[0.875rem] leading-[1.5rem] md:text-[1rem] md:leading-[1.625rem]">
+            class="mt-2 mb-4 w-full max-w-[41rem] text-clr-gray-5 font-medium text-center text-[0.875rem] leading-[1.5rem] md:text-[1rem] md:leading-[1.625rem]">
             We are here to help you with your next project. Let's discuss and
             make it reality.
           </p>
 
           <!-- Form -->
           <form action="" class="w-full flex flex-col gap-6 items-center">
+            <!-- First and Last name -->
             <div
               class="flex flex-col gap-y-5 md:flex-row w-full items-center justify-center gap-x-6">
               <input
@@ -202,6 +303,7 @@
                 class="da-input rounded-[4rem] w-full max-w-[29.5rem] border border-solid focus:outline-none border-clr-gray-1" />
             </div>
 
+            <!-- Phone and Email -->
             <div
               class="flex flex-col md:flex-row w-full items-center justify-center gap-6">
               <input
@@ -213,10 +315,11 @@
                 placeholder="Email Number*"
                 class="da-input rounded-[4rem] w-full max-w-[29.5rem] border border-solid focus:outline-none border-clr-gray-1" />
             </div>
+
+            <!-- Message -->
             <textarea
               placeholder="Write your message here"
-              class="da-textarea rounded-[2rem] w-full max-w-[60.6rem] border border-solid focus:outline-none border-clr-gray-1 min-h-[15rem]">
-            </textarea>
+              class="da-textarea rounded-[2rem] w-full max-w-[60.6rem] border border-solid focus:outline-none border-clr-gray-1 min-h-[15rem]"></textarea>
             <button
               class="da-btn da-btn-block max-w-[60.6rem] min-h-[3.5rem] rounded-[2rem] group text-clr-gray-7 font-extrabold text-xl bg-lime-300 border border-lime-400">
               Send Mail
