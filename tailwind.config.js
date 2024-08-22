@@ -14,6 +14,7 @@ module.exports = {
       },
       // Custom colors
       colors: {
+        'clr-gray-1': '#E9E9E9',
         'clr-gray-4': '#737373',
         'clr-gray-5': '#494949',
         'clr-gray-6': '#212121',
@@ -21,8 +22,10 @@ module.exports = {
         'clr-off-white': '#F4F4F4',
       },
       backgroundImage: {
-        'hero-bg':
+        'header-bg':
           'linear-gradient(0deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%)',
+        'connect-bg':
+          'linear-gradient(0deg, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0.3) 50%), url("../images/contact-bg.jpg")',
       },
     },
   },

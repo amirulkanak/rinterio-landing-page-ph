@@ -6,6 +6,10 @@
   display: none !important;
 }
 
+.ka {
+  background: url('../images/contact-bg.jpg') lightgray 50% / cover no-repeat;
+}
+
 .kanak {
   border: 1px solid red;
 }
