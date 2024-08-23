@@ -90,7 +90,7 @@
 
             <!-- Mobile menu -->
             <div class="da-dropdown da-dropdown-end min-[1120px]:hidden">
-              <!-- mobile icon -->
+              <!-- Mobile icon -->
               <div
                 tabindex="0"
                 role="button"
@@ -100,7 +100,7 @@
                 </div>
               </div>
 
-              <!-- mobile navigation -->
+              <!-- Mobile navigation -->
               <ul
                 tabindex="0"
                 class="da-menu da-menu-lg da-dropdown-content bg-lime-100 rounded-box font-bold z-[1] mt-3 w-52 shadow space-y-2">
@@ -166,6 +166,92 @@
     </header>
 
     <main>
+      <!-- About Us Section -->
+      <section
+        class="wrapper relative py-8 md:py-[4.5rem] lg:py-[6.25rem] flex flex-col gap-y-6 items-center lg:flex-row lg:justify-between lg:items-end gap-x-8">
+        <!-- Curly arrow -->
+        <img
+          class="hidden lg:block absolute -left-6 min-[1170px]:-left-12 top-11"
+          src="./assets/icons/curly-arrow.png"
+          alt="curly arrow" />
+
+        <!-- About us content -->
+        <div class="text-center lg:text-left space-y-4 lg:max-w-[35rem]">
+          <!-- Badge -->
+          <div
+            class="da-badge gap-2 badge-info px-3 h-9 text-clr-gray-5 text-base font-bold bg-white">
+            <i class="fa-solid fa-arrow-right"></i>
+            About Us
+          </div>
+
+          <!-- About Content -->
+          <h2
+            class="text-clr-gray-6 font-bold text-center lg:text-left text-[1.5rem] leading-[2rem] md:text-[2rem] md:leading-[2.75rem] lg:text-[2.5rem] lg:leading-[3.5rem]">
+            We design thoughtful, Liveable spaces
+          </h2>
+          <p
+            class="mt-2 mb-4 w-full max-w-[41rem] text-clr-gray-5 font-medium text-center lg:text-left text-[0.875rem] leading-[1.5rem] md:text-[1rem] md:leading-[1.625rem]">
+            We are a team of professional designers who are passionate about our
+            work. We offer a wide range of services to meet your needs.
+          </p>
+
+          <!-- About Us cards -->
+          <div
+            class="mt-6 flex flex-col gap-4 md:flex-row md:gap-6 lg:flex-col">
+            <!-- card 1 -->
+            <div class="da-card bg-white">
+              <div class="da-card-body flex-row gap-5 items-start">
+                <img
+                  class="size-[3rem]"
+                  src="./assets/icons/commercial.png"
+                  alt="Building" />
+                <div class="flex flex-col gap-[0.62rem]">
+                  <h2
+                    class="da-card-title font-extrabold text-clr-gray-7 text-[1.25rem] leading-[1.625rem]">
+                    Commercial
+                  </h2>
+                  <p
+                    class="text-clr-gray-5 text-left font-medium text-base leading-[1.625rem]">
+                    We offer commercial design services for offices,
+                    restaurants, and more.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="da-card bg-white">
+              <div class="da-card-body flex-row gap-5 items-start">
+                <img
+                  class="size-[3rem]"
+                  src="./assets/icons/residential.png"
+                  alt="Building" />
+                <div class="flex flex-col gap-[0.62rem]">
+                  <h2
+                    class="da-card-title font-extrabold text-clr-gray-7 text-[1.25rem] leading-[1.625rem]">
+                    Residential
+                  </h2>
+                  <p
+                    class="text-clr-gray-5 text-left font-medium text-base leading-[1.625rem]">
+                    We offer residential design services for homes, apartments,
+                    and more.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- About us image -->
+        <div
+          class="w-full md:h-[24.0625rem] relative lg:h-full lg:max-w-[35.8rem]">
+          <img
+            class="w-full h-full object-cover rounded-2xl"
+            src="./assets/images/Rectangle.png"
+            alt="House" />
+        </div>
+      </section>
+
       <!-- Work Section -->
       <section
         class="wrapper flex flex-col items-center justify-center gap-y-4 my-8 md:my-[4.5rem] lg:my-[6.25rem]">
@@ -301,13 +387,12 @@
               <div class="space-y-3">
                 <h3
                   class="text-left text-clr-gray-5 font-extrabold text-[1.25rem] leading-[1.688rem] md:text-[1.5rem] md:leading-[2rem]">
-                  Commercial
+                  Residential
                 </h3>
                 <p
                   class="text-clr-gray-4 text-[1rem] leading-[1.625rem] font-medium">
-                  The barn house captivates with its blend of rustic charm and
-                  modern. The barn house captivates with its blend of rustic
-                  charm and modern.
+                  Experience comfort and luxury in a community that prioritizes
+                  your lifestyle and well-being.
                 </p>
                 <button
                   class="group text-clr-gray-6 font-extrabold text-[1rem] md:text-[1.25rem] leading-[1.25rem]">
@@ -357,14 +442,13 @@
                 </h3>
                 <p
                   class="text-clr-gray-4 text-[1rem] leading-[1.625rem] font-medium">
-                  The barn house captivates with its blend of rustic charm and
-                  modern.
+                  Experience a professional environment with innovation.
                 </p>
                 <button
-                  class="group text-clr-gray-6 font-extrabold text-[1rem] md:text-[1.25rem] leading-[1.25rem]">
+                  class="group text-clr-gray-6 font-extrabold tracking-tighter min-[1086px]:tracking-normal text-[1rem] md:text-[1.2rem] leading-[1.25rem]">
                   View Details
                   <div
-                    class="da-btn da-btn-circle da-btn-sm ml-2 bg-lime-300 border-none hover:bg-lime-300">
+                    class="da-btn da-btn-circle da-btn-sm min-[1086px]:ml-2 bg-lime-300 border-none hover:bg-lime-300">
                     <i
                       class="fa-solid fa-arrow-right text-xl -rotate-45 group-hover:rotate-0 duration-200"></i>
                   </div>
