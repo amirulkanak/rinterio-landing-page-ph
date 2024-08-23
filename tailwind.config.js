@@ -27,6 +27,11 @@ module.exports = {
         'connect-bg':
           'linear-gradient(0deg, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0.3) 50%), url("../images/contact-bg.jpg")',
       },
+      // Grid template rows
+      gridTemplateRows: {
+        '4-fixed-hight': '14.2rem 14.2rem 12.58rem 14.2rem',
+        '2-fixed-hight': '14.2rem 14.2rem',
+      },
     },
   },
   plugins: [require('daisyui')],

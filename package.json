@@ -7,8 +7,8 @@
     "dev": "tailwindcss -i ./input.css -o ./assets/css/style.css --watch"
   },
   "repository": {
-    "type": "git",
-    "url": "y"
+    "type": "github",
+    "url": "https://github.com/amirulkanak/rinterio-landing-page-ph"
   },
   "author": "Amirul Alam Kanak",
   "license": "ISC",
