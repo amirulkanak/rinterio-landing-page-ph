@@ -31,7 +31,7 @@ module.exports = {
       gridTemplateRows: {
         '4-h-14.2': '14.2rem 14.2rem 12.58rem 14.2rem',
         '2-h-14.2': '14.2rem 14.2rem',
-        '2-h-23.8': '22.3125rem 22.3125rem',
+        '2-h-22.3': '22.3125rem 22.3125rem',
       },
     },
   },

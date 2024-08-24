@@ -2341,18 +2341,6 @@ body {
   font-family: "Manrope", sans-serif;
 }
 
-.hide {
-  display: none !important;
-}
-
-.ka {
-  background: url('../images/contact-bg.jpg') lightgray 50% / cover no-repeat;
-}
-
-.kanak {
-  border: 1px solid red;
-}
-
 .hover\:bg-clr-gray-6:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(33 33 33 / var(--tw-bg-opacity));
@@ -2471,7 +2459,7 @@ body {
     grid-template-columns: repeat(9, minmax(0, 1fr));
   }
 
-  .md\:grid-rows-2-h-23\.8 {
+  .md\:grid-rows-2-h-22\.3 {
     grid-template-rows: 22.3125rem 22.3125rem;
   }
 
