@@ -1782,6 +1782,10 @@ html {
   margin-bottom: 1rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -2406,6 +2410,10 @@ body {
     margin-bottom: 4.5rem;
   }
 
+  .md\:mb-\[4\.5rem\] {
+    margin-bottom: 4.5rem;
+  }
+
   .md\:mt-10 {
     margin-top: 2.5rem;
   }
@@ -2567,6 +2575,10 @@ body {
 
   .lg\:my-\[6\.25rem\] {
     margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
+  }
+
+  .lg\:mb-\[6\.25rem\] {
     margin-bottom: 6.25rem;
   }
 
