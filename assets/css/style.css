@@ -1769,6 +1769,11 @@ html {
   margin-bottom: 2rem;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -1795,6 +1800,14 @@ html {
 
 .mt-\[2\.5rem\] {
   margin-top: 2.5rem;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .flex {
@@ -2081,6 +2094,11 @@ html {
   background-color: rgb(190 242 100 / 0.5);
 }
 
+.bg-lime-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 254 231 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -2278,6 +2296,12 @@ html {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .duration-200 {
   transition-duration: 200ms;
 }
@@ -2335,8 +2359,16 @@ body {
 }
 
 @media (min-width: 768px) {
+  .md\:col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+
   .md\:col-span-4 {
     grid-column: span 4 / span 4;
+  }
+
+  .md\:col-span-6 {
+    grid-column: span 6 / span 6;
   }
 
   .md\:col-span-8 {
@@ -2386,6 +2418,10 @@ body {
     max-width: 16.25rem;
   }
 
+  .md\:max-w-\[17\.125rem\] {
+    max-width: 17.125rem;
+  }
+
   .md\:max-w-\[35\.4rem\] {
     max-width: 35.4rem;
   }
@@ -2402,12 +2438,24 @@ body {
     grid-template-columns: repeat(8, minmax(0, 1fr));
   }
 
-  .md\:grid-rows-4-fixed-hight {
+  .md\:grid-cols-9 {
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+  }
+
+  .md\:grid-rows-2-h-23\.8 {
+    grid-template-rows: 22.3125rem 22.3125rem;
+  }
+
+  .md\:grid-rows-4-h-14\.2 {
     grid-template-rows: 14.2rem 14.2rem 12.58rem 14.2rem;
   }
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
   }
 
   .md\:gap-6 {
@@ -2434,6 +2482,10 @@ body {
 
   .md\:pt-\[6\.25rem\] {
     padding-top: 6.25rem;
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 
   .md\:text-4xl {
@@ -2492,6 +2544,10 @@ body {
     grid-column: span 6 / span 6;
   }
 
+  .lg\:row-span-1 {
+    grid-row: span 1 / span 1;
+  }
+
   .lg\:my-\[6\.25rem\] {
     margin-top: 6.25rem;
     margin-bottom: 6.25rem;
@@ -2541,7 +2597,7 @@ body {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  .lg\:grid-rows-2-fixed-hight {
+  .lg\:grid-rows-2-h-14\.2 {
     grid-template-rows: 14.2rem 14.2rem;
   }
 
